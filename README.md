@@ -1,4 +1,4 @@
-# PRO2002 Software Architecture and Design Patterns – Code Samples
+# Code Samples - PRO2002 Software Architecture and Design Patterns
 
 This repository contains code samples from the course **PRO2002 Software Architecture and Design Patterns**.
 
