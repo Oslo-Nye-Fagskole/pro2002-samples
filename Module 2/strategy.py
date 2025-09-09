@@ -25,6 +25,9 @@ class Apple(Item):
 
 
 ## Discount strategies ##
+# Abstract base class defines the "Strategy" interface.
+# Hides the complexity of actual implementation.
+# Each concrete strategy below (NoDiscount, PercentageDiscount etc.) implement its own "apply"
 class DiscountStrategy(ABC):
     @abstractmethod
     def apply(self, total: float) -> float:
@@ -66,13 +69,12 @@ class Shop:
         return self.discount_strategy.apply(total)
 
 
-# Example usage
 shop = Shop(PercentageDiscount(10))  # 10% off
 shop.add(Book("Codex: Space Marines", 299.0))
 shop.add(Apple("Golden Squig", 12.5))
 
-print("Total with discount:", shop.total_price())
+print("Total with 10% off:", shop.total_price())
 
 # Switch strategy at runtime
 shop.discount_strategy = FixedDiscount(50)
-print("Total with fixed discount:", shop.total_price())
+print("Total with fixed 50,- discount:", shop.total_price())
