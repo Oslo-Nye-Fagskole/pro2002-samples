@@ -1,6 +1,6 @@
 # "Magic number"
 # The business tax rate of 0.22 (backbone of the Norwegian bureaucracy) is hidden directly in the code.
-# No explanation of where it comes from or how to change it.
+# No explanation of where it comes from or where else relevant.
 def calculate_business_tax(profit):
     return profit * 0.22
 
