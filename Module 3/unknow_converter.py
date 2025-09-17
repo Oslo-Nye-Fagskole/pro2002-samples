@@ -1,3 +1,4 @@
+# What is this "Converter" converting?!?
 class Converter:
     def __init__(self, factor, offset):
         self.factor = factor
@@ -7,6 +8,7 @@ class Converter:
         return value * self.factor + self.offset
 
 
-# What is this "Converter" converting?!?
+# Why such oddly specific numbers?!?
+# And why "5/9" twice?!?
 c = Converter(5/9, -32 * 5/9)
 print(c.convert(212))
