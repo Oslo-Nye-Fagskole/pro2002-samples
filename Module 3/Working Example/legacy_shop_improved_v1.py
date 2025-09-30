@@ -1,4 +1,4 @@
-# legacy_shop_improved_factory.py -> Factory pattern improvement
+# legacy_shop_improved_v1.py -> Factory pattern improvement
 
 from item_factory import Book, Apple, make_item
 
