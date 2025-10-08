@@ -6,4 +6,5 @@ from shop.models import PRODUCTS
 def get_all_products() -> List[Dict[str, Any]]:
     # Returns a copy of all products from the mock data store
     # Later, this will fetch data from a database or external source
+    # And if necessary, perform business logic on the data
     return PRODUCTS.copy()
