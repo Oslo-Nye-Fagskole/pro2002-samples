@@ -12,7 +12,7 @@ api_bp = Blueprint("api", __name__)
 # The decorator @api_bp.get("/products") tells Flask that:
 # - when an HTTP GET request comes to "/products"
 # - use this function to handle it
-# We registers this blueprint in our app.py, so:
+# We register this blueprint in our app.py, so:
 # - Flask merges it into the main URL map
 # - When a client goes to http://localhost:5000/products (if running locally)
 # - Flask finds this route and calls list_products()
