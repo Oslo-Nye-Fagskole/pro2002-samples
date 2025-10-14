@@ -2,7 +2,7 @@
 
 - v1 containing mock data
 - **No** database integration
-- **No** authentication
+- **No** authentication/authorization
 
 ## Run instructions
 
