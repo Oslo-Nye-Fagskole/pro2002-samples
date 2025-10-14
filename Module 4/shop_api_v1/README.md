@@ -1,4 +1,8 @@
-# Shop API Mock
+# Shop API v1
+
+- v1 containing Mock data
+- No database integration
+- No authentication
 
 ## Run instructions
 
