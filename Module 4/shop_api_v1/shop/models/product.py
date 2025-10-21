@@ -1,6 +1,6 @@
 # shop/models/product.py
 
-from shop.data.mock_products import ProductDict
+from shop.types.product_types import ProductDict
 
 class Product:
     """

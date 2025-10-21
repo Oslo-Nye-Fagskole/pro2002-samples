@@ -1,9 +1,7 @@
 # shop/data/mock_products.py
 
-from typing import Dict, Any, List
-
-# Alias for dict-based product representation
-ProductDict = Dict[str, Any]
+from typing import List
+from shop.types.product_types import ProductDict
 
 # Existing mock data store
 PRODUCTS: List[ProductDict] = [

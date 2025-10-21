@@ -1,6 +1,6 @@
 # shop/models/product_mapper.py
 
-from shop.data.mock_products import ProductDict
+from shop.types.product_types import ProductDict
 from shop.models.product import Product
 
 class ProductMapper:
