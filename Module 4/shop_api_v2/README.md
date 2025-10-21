@@ -1,11 +1,16 @@
 # Shop API v2
 
 - v2 with SQLite
-- **No** authentication/authorization
+- **No** authentication/authorization (yet)
+
+## SQLite setup  
+Install SQLite - get it from [sqlite.org](https://sqlite.org).  
+From `shop/data/`, run:  
+```bash
+sqlite3 shop.db < products.sql
+```
 
 ## Run instructions
-
-**TODO** SQLite setup
 
 ```bash
 pip install -r requirements.txt
@@ -33,3 +38,5 @@ DELETE /products/p-1001
 ```
 
 Both operations return appropriate HTTP status codes (**200** for update, **204** for delete) confirming successful completion. To view and confirm the changes above, access the full product list after each to see the difference.
+
+With SQLite database now, all changes made through the API are persisted.
