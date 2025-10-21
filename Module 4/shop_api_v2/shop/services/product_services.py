@@ -13,7 +13,6 @@ class ProductService:
     """
     @staticmethod
     def get_all() -> List[Product]:
-        print("...")
         return product_data.list()
 
     @staticmethod
