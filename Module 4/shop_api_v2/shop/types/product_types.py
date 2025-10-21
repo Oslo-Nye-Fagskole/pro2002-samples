@@ -2,7 +2,6 @@
 
 from typing import Dict, Any
 
-# Common alias for representing product data as a dictionary.
-# Used throughout the system to describe raw product structures exchanged
-# between the data, service, and API layers before being converted into Product objects.
+# Simple type definition for product data as a dictionary
+# Shared across layers for conversion to/from actual Product objects
 ProductDict = Dict[str, Any]
