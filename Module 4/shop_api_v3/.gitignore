@@ -1,2 +1,3 @@
 shop/data/shop.db
 shop/auth/firebase_credentials.json
+shop/auth/firebase_config.json
