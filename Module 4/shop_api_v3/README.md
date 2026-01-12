@@ -2,7 +2,9 @@
 
 - v3 with Firebase Authentication
 
+
 ## Firebase Auth. setup
+
 - Create a Firebase project and enable Email/Password authentication  
 - Generate a Service Account key and save it as `shop/auth/firebase_credentials.json` (**NEVER** commit this)  
 - Create a test user in Firebase Authentication  
@@ -10,16 +12,18 @@
 - Create a Web App in Firebase and save its config to `shop/auth/firebase_config.json` (don't commit this either)
 
 
-## SQLite setup  
+## SQLite setup
+
 Install SQLite - get it from [sqlite.org](https://sqlite.org).  
 From `shop/data/`, run:  
-```bash
+```
 sqlite3 shop.db < products.sql
 ```
 
+
 ## Run instructions
 
-```bash
+```
 pip install -r requirements.txt
 flask run
 ```

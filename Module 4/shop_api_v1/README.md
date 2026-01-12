@@ -4,9 +4,10 @@
 - **No** database integration
 - **No** authentication/authorization
 
+
 ## Run instructions
 
-```bash
+```
 pip install -r requirements.txt
 flask run
 ```

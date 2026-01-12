@@ -3,16 +3,19 @@
 - v2 with SQLite
 - **No** authentication/authorization (yet)
 
-## SQLite setup  
+
+## SQLite setup
+
 Install SQLite - get it from [sqlite.org](https://sqlite.org).  
 From `shop/data/`, run:  
-```bash
+```
 sqlite3 shop.db < products.sql
 ```
 
+
 ## Run instructions
 
-```bash
+```
 pip install -r requirements.txt
 flask run
 ```
