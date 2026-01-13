@@ -1,4 +1,4 @@
-# tests/models/test_product.py
+# tests/unit/models/test_product.py
 
 # pylint: disable=import-error
 # Suppress editor warnings caused by workspace layout, not runtime issues
