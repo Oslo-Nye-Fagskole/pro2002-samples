@@ -5,9 +5,17 @@
 
 ## Run tests
 
-From the project root (/shop_api_v4), run:
+From the project root (/shop_api_v4), you can run all tests with:
 ```
 pytest
+```
+To run only unit tests:
+```
+pytest tests/unit
+```
+To run only integration tests:
+```
+pytest tests/integration
 ```
 
 
