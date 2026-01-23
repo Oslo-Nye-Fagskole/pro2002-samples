@@ -10,4 +10,5 @@ def home():
 
 # Run the app only if this file is executed directly
 if __name__ == '__main__':
-    app.run(debug=True) # Enable live reloading, very convenient for development
+    # Bind to 0.0.0.0 so Flask server is reachable outside the Docker container
+    app.run(host="0.0.0.0", debug=True)

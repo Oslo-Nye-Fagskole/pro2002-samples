@@ -20,7 +20,7 @@ docker build -t shop-api .
 ## Run the container
 
 ```bash
-docker run -p 5000:5000 shop-api
+docker run -p 5000:5000 --name shop-api shop-api
 ```
 
 
