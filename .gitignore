@@ -77,3 +77,6 @@ dmypy.json
 cython_debug/
 
 .vscode/
+
+# SQLite database files
+*.db

@@ -18,13 +18,13 @@ This sample does **not** represent a finished solution.
 
 A minimal example domain structure is provided in:
 
-👉 [`/dealership`](./dealership)
+👉 [`/dealership_api`](./dealership_api)
 
 This is only a structural reference. Your final project may extend or replace any part depending on your own solution.
 
 ---
 
-The points below in this README are **minimum documentation structure** expected in a completed project. You are encouraged to expand this documentation with additional relevant sections, such as project structure, architectural decisions, known limitations, and future improvements etc.
+The sections below in this README are **minimum documentation structure** expected in a completed project. You are encouraged to expand this documentation with additional relevant sections, such as project structure, architectural decisions, known limitations, and future improvements etc.
 
 # Project Overview/Description (TODO)
 
