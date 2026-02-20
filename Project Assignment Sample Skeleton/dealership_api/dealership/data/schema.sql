@@ -1,0 +1,1 @@
+-- TODO: Define tables for vehicles, customers, sales etc (appropriate for you design!)

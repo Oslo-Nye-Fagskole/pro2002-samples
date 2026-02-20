@@ -61,8 +61,7 @@ Explain:
 - Required environment variables
 - Any configuration files
 
-⚠️ Do NOT commit API keys or secrets to the repository.  
-Provide instructions for how others can supply their own credentials.
+⚠️ Do NOT commit API keys or secrets to the repository. Provide instructions for how others can supply their own credentials.
 
 # API Usage (TODO)
 
