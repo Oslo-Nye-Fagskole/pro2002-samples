@@ -1,15 +1,15 @@
-# Dealership API – Sample Domain Skeleton
+# Dealership API - Sample Domain Skeleton
 
 This is a **sample domain structure** for a Car Dealership backend system.
 
 It demonstrates a layered architecture consistent with previous course samples:
 
-- `routes` – API layer  
-- `services` – business logic  
-- `models` – domain representation  
-- `data` – schema and persistence scripts  
-- `auth` – authentication and role helpers  
-- `types` – shared enums/constants  
+- `routes` - API layer  
+- `services` - business logic  
+- `models` - domain representation  
+- `data` - schema and persistence scripts  
+- `auth` - authentication and role helpers  
+- `types` - shared enums/constants  
 
 All files contain minimal placeholder or dummy implementations.
 

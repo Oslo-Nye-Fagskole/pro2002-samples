@@ -1,4 +1,4 @@
-# PRO2002 – Project Assignment Sample Skeleton
+# PRO2002 - Project Assignment Sample Skeleton
 
 The sample provides a structural baseline for the Project Assignment. It is up to your team to implement the actual solution with appropriate:
 
