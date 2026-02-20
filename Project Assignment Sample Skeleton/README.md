@@ -49,8 +49,7 @@ Explain clearly how to:
 - Run tests
 - Build and run using Docker
 
-⚠️ These instructions must work exactly as described.  
-During grading, this is the first thing that will be tested.
+⚠️ These instructions must work exactly as described. During grading, this is the first thing that will be tested.
 
 ## Environment Configuration (TODO)
 
