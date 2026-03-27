@@ -15,6 +15,15 @@ All files contain minimal placeholder or dummy implementations.
 
 This sample is **not a finished system**.
 
+## How to Run
+
+To run this sample:
+
+```bash
+pip install -r requirements.txt
+flask run
+```
+
 ## Purpose of This Sample
 
 This sample illustrates:
